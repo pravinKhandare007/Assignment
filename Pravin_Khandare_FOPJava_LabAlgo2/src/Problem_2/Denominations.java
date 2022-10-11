@@ -39,7 +39,7 @@ public class Denominations {
 					System.out.println("cannot pay further");
 					break;
 				}
-				int maxDeno = 0;// to store the max denomination we are going to use for minimum no. of notes
+				int maxDeno = 0;
 				for (int i = 0; i < denoArr.length; i++) {
 
 					if (pay >= denoArr[i]) {
@@ -47,7 +47,6 @@ public class Denominations {
 						break;
 					}
 				}
-				// below in pay/opDeno ,opDeno will never be zero
 				try {
 					System.out.println(maxDeno + " : " + pay / maxDeno);
 					pay = pay % maxDeno;
