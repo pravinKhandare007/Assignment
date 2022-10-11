@@ -31,9 +31,9 @@ public class Transaction {
 					System.out.println("the target is achieved after " + (i + 1) + " transactions");
 					break;
 				}
-			notAchieved = true;
-			if (notAchieved) {
-				System.out.println("the given target is not achieved");
+				notAchieved = true;
+				if (notAchieved) {
+					System.out.println("the given target is not achieved");
 				}
 			}
 			count--;

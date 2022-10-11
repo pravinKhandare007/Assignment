@@ -9,7 +9,8 @@ public class Denominations {
 		int[] denoArr;
 
 		Scanner sc = new Scanner(System.in);
-		// try catch block to manage if user enters wrong data type for any input that is being asked
+		// try catch block to manage if user enters wrong data type for any input that
+		// is being asked
 		try {
 			System.out.println("enter the size Denominations");
 
@@ -61,4 +62,3 @@ public class Denominations {
 		sc.close();
 	}
 }
-
