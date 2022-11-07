@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class BalancingBrackets {
 	public static void main(String[] args) {
-		
+
 		String input = "([[{}]])";
 
 		Boolean result = isBalancedString(input);
