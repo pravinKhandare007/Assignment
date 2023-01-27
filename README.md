@@ -1,2 +1,1 @@
-# Assignment for labs
-repository for assignments
+this repository is for uploading all assignments of gl
