@@ -1,0 +1,49 @@
+video{
+    position: fixed;
+}
+
+body{
+    margin: 0%;
+}
+
+div {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* width, border, background-color, font-size, padding, margin-bottom
+input{
+}
+margin,width,border-radius,color, font-size,
+button{
+} */
+input{
+    width: 300px;
+    min-width: 100px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input:focus{
+    outline: none;
+    color: black;
+    background-color: aqua;
+}
+button{
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(175, 102, 243);
+}
