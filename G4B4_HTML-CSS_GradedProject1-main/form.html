@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lab Test</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="form.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="pharma">
+			<div id="pharma-form">
+				<form action="#" id="pform">
+					<div id="contact">
+						<h3>1. Your Contact Details</h3>
+						<input type="text" placeholder="Full Name" name="fullName" required>
+						<input type="text" placeholder="Patient Id if exists" name="patentId">
+						<input type="number" placeholder="Contact Number" name="contactNumber" min="6000000000" max="9999999999" required>
+						<input type="email" placeholder="Email Id" name="emailId" required>
+					</div>
+					<div id="address">
+						<h3>2. Address</h3>
+						<input type="text" placeholder="H-No" name="houseNumber" required>
+						<input type="text" placeholder="Street" name="street" required>
+						<input type="text" placeholder="Area" name="area" required>
+					</div>
+					<div id="test">
+						<h3>3. Test Type</h3>
+						<div>
+							<input type="checkbox" name="test" id="test-1" value="CBC" >
+							<label for="test-1">CBC</label>
+						</div>
+						<div>
+							<input type="checkbox" name="test" id="test-2" value="Complete Urine">
+							<label for="test-2">Complete Urine</label>
+						</div>
+						<div>
+							<input type="checkbox" name="test" id="test-3" value="Lipid Profile">
+							<label for="test-3">Lipid Profile</label>
+						</div>
+						<div>
+							<input type="checkbox" name="test" id="test-4" value="Thyroid Stimulating Hormone">
+							<label for="test-4">Thyroid Stimulating Hormone</label>
+						</div>
+						<div>
+							<input type="checkbox" name="test" id="test-5" value="Glucose Test">
+							<label for="test-5">Glucose Test</label>
+						</div>
+					</div>
+					<div id="report">
+						<h3>4. Do you want a hard copy of the report also?</h3>
+						<div>
+							<input type="radio" name="hardCopy" id="report-1" value="yes" required>
+							<label for="report-1">Yes</label>
+						</div>
+						<div>
+							<input type="radio" name="hardCopy" id="report-2" value="no">
+							<label for="report-2">No</label>
+						</div>
+					</div>
+					<div id="appointment">
+						<h3>5. Select Your Comfortable Date and Time</h3>
+						<div>
+							<label for="date">Date:</label>
+							<input type="date" name="date" id="date" min="2023-03-01" max="2023-12-31" required>
+						</div>
+						<div>
+							<label for="time">Time:</label>
+							<input type="time" name="time" id="time" min="09:00" max="18:00" required>
+							<small>Office hours are 9am to 6pm</small>
+						</div>
+					</div>
+					
+				</form>
+				<div id="buttons">
+					<button type="reset" form="pform">Reset</button>
+					<button type="submit" form="pform">Submit</button>
+				</div>
+				<script src="script.js"></script>
+			</div>
+
+			<div id="pharma-pic">
+				<img src="Images/Lab-Test/lab-test.jpg" alt="lab-test.jpg">
+			</div>
+		</div>
+	</body>
+</html>
