@@ -1,1 +1,1 @@
-this repository is for uploading all assignments of gl
+this repository is for uploading all assignments of gl.
